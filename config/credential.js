@@ -10,3 +10,8 @@ const client = new smartcar.AuthClient({
   redirectUriL: process.REDIRECT_URL,
   testMode: true,
 });
+
+function getClient() {
+  return client;
+}
+module.exports = getClient;
