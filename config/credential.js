@@ -8,7 +8,7 @@ const client = new smartcar.AuthClient({
   clientId: process.env.CLIENT_ID,
   clientSecret: process.env.CLIENT_SECRET,
   redirectUri: process.env.REDIRECT_URL,
-  testMode: true,
+  //   testMode: true,
 });
 
 function getClient() {
